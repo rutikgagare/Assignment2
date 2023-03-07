@@ -1,7 +1,3 @@
-function xyz(){
-    console.log("hello");
-}
-
 let getData = ()=>{ fetch('index.json').then((response) => {
     return response.json();
 }).then((catData) => {
