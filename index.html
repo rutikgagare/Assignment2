@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 Elspectra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="rank">
+            <input id="userinput" type="text" placeholder="Enter the skill"  >
+            <button onclick="getRank()">Get Rank</button>
+            <h5>Rank based on 2019 score : <span id="out1"></span> </h5>
+            <h5>Rank based on 2024 score : <span id="out2"></span> </h5>
+        </div>
+
+        <div class="section">
+            <div class="subsection" id="top1">
+                <h2>Top 3 2019</h2>
+            </div>
+            <div class="subsection" id="bot1">
+                <h2>Bottom 3 2019</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="subsection" id="top2">
+                <h2>Top 3 2024</h2>
+            </div>
+            <div class="subsection" id="bot2">
+                <h2>Bottom 3 2024</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="subsection" id="top3">
+                <h2>Top 3 Accelerating</h2>
+            </div>
+            <div class="subsection" id="bot3">
+                <h2>Bot 3 Decelerating</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="fetch.js"></script>
+</body>
+</html>
